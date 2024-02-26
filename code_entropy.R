@@ -1,7 +1,7 @@
 rm(list=ls())
 library(terra)
 
-p = '../improved_rsei/data/'
+p = './data/'
 f = list.files(p, 'tif$', full.names = T)
 
 normalization = function(img){
